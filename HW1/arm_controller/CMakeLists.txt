@@ -14,7 +14,7 @@ find_package(sensor_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
-add_executable(arm_controller_node src/publisher_member_function.cpp)
+add_executable(arm_controller_node src/arm_controller_node.cpp)
 
 
 ament_target_dependencies(arm_controller_node rclcpp std_msgs sensor_msgs)
